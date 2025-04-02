@@ -4,7 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Morara | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+            color: #333333;
+        }
+        header {
+            background: #556B2F;
+            color: #E8D8C4;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #E8D8C4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .mockup-img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .skills-list li {
+            background: #A0522D;
+            color: #FFFFFF;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            background: #556B2F;
+            color: #E8D8C4;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,32 +88,42 @@
     </header>
     
     <section id="home">
+        <img src="profile.jpg" alt="Sarah Morara" class="profile-img">
         <h2>Welcome to My Portfolio</h2>
         <p>Passionate about building scalable applications and solving complex problems with innovative solutions.</p>
+        <img src="laptop-mockup.jpg" alt="Project Mockup on Laptop" class="mockup-img">
     </section>
     
     <section id="about">
         <h2>About Me</h2>
-        <p>I am Sarah Morara, a dedicated software engineer specializing in full-stack development, AI-driven solutions , Digital Forensics and Cyber Security . With a keen eye for problem-solving and innovation, I strive to create impactful digital experiences.</p>
+        <p>I am Sarah Morara, a dedicated software engineer specializing in full-stack development and AI-driven solutions. With a keen eye for problem-solving and innovation, I strive to create impactful digital experiences.</p>
     </section>
     
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>JavaScript, Python, Java</li>
-            <li>React, Node.js, Express, MongoDB</li>
-            <li>Machine Learning & AI Fundamentals</li>
-            <li>Cloud Computing & DevOps</li>
-            <li>Agile & Scrum Methodologies</li>
+        <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Machine Learning & AI</li>
+            <li>Cloud Computing</li>
+            <li>Agile & Scrum</li>
         </ul>
     </section>
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:sarahmorara06@gmail.com">sarahmorara06@gmail.com</a></p>
-        <p>GitHub: <a href="#">github.com/sarahmorara</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/sarahmorara</a></p>
+        <p>Email: <a href="mailto:sarahmorara06@gmail.com" style="color: #A0522D;">sarahmorara06@gmail.com</a></p>
+        <p>GitHub: <a href="#" style="color: #A0522D;">github.com/sarahmorara</a></p>
+        <p>LinkedIn: <a href="#" style="color: #A0522D;">linkedin.com/in/sarahmorara</a></p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Sarah Morara. All rights re
+        <p>&copy; 2025 Sarah Morara. All rights reserved.</p>
+    </footer>
+</body>
+</html>
