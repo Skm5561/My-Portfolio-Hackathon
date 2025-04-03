@@ -1,4 +1,5 @@
-Sarah Morara | Software Engineer Portfolio
+ Sarah Morara 
+Software Engineer Portfolio
 
 This portfolio website is designed to showcase Sarah Morara's skills, projects, and professional background in a structured and visually appealing manner. With a user-centric design, the website ensures smooth navigation and accessibility. It is fully responsive, adapting seamlessly to different screen sizes to provide an optimal browsing experience. The professional color scheme and typography, combined with a simple yet effective navigation structure, enhance both readability and engagement. The dedicated skills section highlights technical expertise, while the inclusion of a profile picture and project visuals strengthens personal branding.
 
